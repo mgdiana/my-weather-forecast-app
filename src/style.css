@@ -1,0 +1,101 @@
+body {
+  font-family: sans-serif;
+  padding: 0 20px;
+}
+.container {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-weather {
+  background-color: #008e89;
+  margin: 15px;
+  padding: 8px;
+  width: 100%;
+  max-width: 750px;
+  border: solid #008e89 1px;
+  border-radius: 7px;
+}
+.button {
+  width: 185px;
+  margin: 10px auto;
+  padding: 5px 10px;
+  border-radius: 7px;
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: #ffd32d;
+  border: 1px solid #ffd32d;
+  transition-duration: 0.4s;
+  border: 2px solid #ffd32d;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.button:hover {
+  background-color: #fff;
+  color: #ffd32d;
+}
+
+form {
+  display: block;
+  margin-top: 0em;
+}
+input {
+  display: block;
+  margin: 0px auto;
+  width: 550px;
+  padding: 10px 15px;
+  font-size: 18pt;
+  border-radius: 7px;
+}
+hr {
+  border: 2.5px solid;
+  border-color: #084594;
+  color: #084594;
+}
+h1 {
+  color: #fff;
+  text-align: center;
+}
+h2 {
+  color: #fff;
+  text-align: center;
+}
+h4 {
+  color: #fff;
+  text-align: center;
+}
+h6 {
+  color: #fff;
+  text-align: center;
+}
+footer {
+  text-align: center;
+  position: relative;
+  font-size: 12px;
+  margin-top: 20px;
+  color: #fff;
+}
+
+#temperature {
+  color: #fff;
+}
+#city {
+  padding-top: px;
+}
+#the-next-hours,
+#the-week {
+  color: #ffd32d;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.sun-icon {
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.c-icon {
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
