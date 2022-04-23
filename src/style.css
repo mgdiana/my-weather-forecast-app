@@ -76,6 +76,9 @@ footer {
   margin-top: 20px;
   color: #fff;
 }
+a {
+  color: #ffd32d;
+}
 
 #temperature {
   color: #fff;
