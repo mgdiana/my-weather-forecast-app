@@ -32,30 +32,21 @@
             value="Current"
           />
         </form>
-        <div class="row justify-content-md-center">
-          <div class="col">
-            <div class="inside">
-              <div>
-                <h1 id="city">Empuriabrava</h1>
-                <h2 id="current-date-time">Wednesday, 17:00</h2>
-              </div>
-
-              <div class="row">
-                <div class="col-6 col-sm-4">
-                  <h2>
-                    <span id="temperature"></span>
-                    <a href="#" id="celsius-link">°C</a>
-                  </h2>
-                </div>
-                <div class="col-6 col-sm-4">
-                  <div class="text-center">
-                    <i class="fa-solid fa-cloud fa-3x c-icon"></i>
-                  </div>
-                </div>
-              </div>
+        <div class="row justify-content-around">
+          <div class="col-4">
+            <div>
+              <h2 id="city"><strong>Empuriabrava</strong></h2>
+              <h6 id="current-date-time">Wednesday, 17:00</h6>
             </div>
           </div>
-          <div class="col">
+          <div class="col-4">
+            <div class="weather clearfix">
+              <i class="fa-solid fa-cloud fa-3x c-icon"></i>
+              <span id="temperature"> </span>
+              <a href="#" id="celsius-link">°C</a>
+            </div>
+          </div>
+          <div class="col-4">
             <div class="inside">
               <h4>
                 Humidity:
@@ -73,6 +64,7 @@
             </div>
           </div>
         </div>
+
         <hr />
         <h5 id="the-next-hours"><strong> The next few hours</strong></h5>
         <div class="row align-items-start">
