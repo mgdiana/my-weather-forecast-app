@@ -71,7 +71,7 @@ searchForm.addEventListener("submit", handleSubmit);
 let currentLocationButton = document.querySelector("#current-city");
 currentLocationButton.addEventListener("click", getCurrentLocation);
 
-searchCity("Empuriabrava");
+searchCity("Castelló d'Empúries");
 
 /*function searchYourCity(event) {
   event.preventDefault();
