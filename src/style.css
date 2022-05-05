@@ -82,16 +82,36 @@ a {
 
 #temperature {
   color: #fff;
+  font-size: 55px;
+  font-weight: bold;
+  position: relative;
+}
+#celsius-link {
+  color: #fff;
+  font-weight: bold;
+  position: relative;
+  font-size: 20px;
+  bottom: 22px;
+}
+#icon {
+  width: 70px;
+  position: relative;
+  bottom: 20px;
 }
 #city {
   padding-top: px;
 }
+#current-date-time {
+  color: #ffd32d;
+}
+
 #the-next-hours,
 #the-week {
   color: #ffd32d;
   text-align: center;
   padding-bottom: 10px;
 }
+
 .sun-icon {
   color: #fff;
   padding-top: 10px;
