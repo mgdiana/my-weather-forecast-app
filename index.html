@@ -24,6 +24,7 @@
       <div class="card-weather">
         <form id="search-form">
           <input type="text" id="city-input" placeholder="Enter your city" />
+
           <input class="button" type="submit" value="Search" />
           <input
             class="button"
@@ -41,26 +42,31 @@
           </div>
           <div class="col-4">
             <div class="weather clearfix">
-              <i class="fa-solid fa-cloud fa-3x c-icon"></i>
+              <img
+                src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
+                alt="Clear"
+                id="icon"
+                class="float-left"
+              />
               <span id="temperature"> </span>
               <a href="#" id="celsius-link">°C</a>
             </div>
           </div>
           <div class="col-4">
             <div class="inside">
-              <h4>
+              <h6>
                 Humidity:
                 <span id="humidity"></span>
                 %
-              </h4>
-              <h4>
+              </h6>
+              <h6>
                 Wind:
                 <span id="wind"></span>
                 km/h
-              </h4>
-              <h4>
+              </h6>
+              <h6>
                 <span id="description"></span>
-              </h4>
+              </h6>
             </div>
           </div>
         </div>
