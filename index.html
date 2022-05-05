@@ -22,21 +22,27 @@
   <body>
     <div class="container">
       <div class="card-weather">
-        <form id="search-form">
+        <form id="search-form" class="mb-3">
           <input type="text" id="city-input" placeholder="Enter your city" />
 
-          <input class="button" type="submit" value="Search" />
-          <input
-            class="button"
-            type="submit"
-            id="current-city"
-            value="Current"
-          />
+          <div class="row g-3">
+            <div class="col-md-7">
+              <input class="button" type="submit" value="Search" />
+            </div>
+            <div class="col-md-1">
+              <input
+                class="button"
+                type="submit"
+                id="current-city"
+                value="Current"
+              />
+            </div>
+          </div>
         </form>
         <div class="row justify-content-around">
           <div class="col-4">
             <div>
-              <h2 id="city"><strong>Empuriabrava</strong></h2>
+              <h2 id="city"><strong></strong></h2>
               <h6 id="current-date-time">Wednesday, 17:00</h6>
             </div>
           </div>
