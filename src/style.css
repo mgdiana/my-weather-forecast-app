@@ -79,12 +79,13 @@ footer {
 a {
   color: #ffd32d;
 }
-
-#temperature {
-  color: #fff;
+.cTemp {
   font-size: 55px;
   font-weight: bold;
   position: relative;
+}
+#temperature {
+  color: #fff;
 }
 #celsius-link {
   color: #fff;
@@ -121,4 +122,9 @@ a {
   color: #fff;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+.weather-forecast {
+  color: #fff;
+  margin-top: 20px;
+  text-align: center;
 }

@@ -54,13 +54,13 @@
                 id="icon"
                 class="float-left"
               />
-              <span id="temperature"> </span>
+              <span class="cTemp" id="temperature"> </span>
               <a id="celsius-link">°C</a>
             </div>
           </div>
           <div class="col-md-3">
             <div class="inside">
-              <h6 id="weather-col">
+              <h6 class="weather-col">
                 Humidity:
                 <span id="humidity"></span>
                 %
@@ -79,111 +79,7 @@
 
         <hr />
         <h5 id="the-week"><strong> The week</strong></h5>
-        <div class="row">
-          <div class="col-6 col-sm-4"><h6>Tomorrow</h6></div>
-          <div class="col-6 col-sm-4">
-            <div class="text-center">
-              <i class="fa-solid fa-cloud-sun sun-icon"></i>
-            </div>
-          </div>
-          <div class="col-6 col-sm-4">
-            <h6 class="weatCondition">
-              <span id="temperature"> 12º </span>
-            </h6>
-          </div>
-
-          <!-- Force next columns to break to new line at md breakpoint and up -->
-          <div class="w-100 d-none d-md-block"></div>
-
-          <div class="col-6 col-sm-4">
-            <h6>Tuesday</h6>
-          </div>
-          <div class="col-6 col-sm-4">
-            <div class="text-center">
-              <i class="fa-solid fa-cloud-sun sun-icon"></i>
-            </div>
-          </div>
-          <div class="col-6 col-sm-4">
-            <h6 class="weatCondition">
-              <span id="temperature"> 12º </span>
-            </h6>
-          </div>
-
-          <!-- Force next columns to break to new line at md breakpoint and up -->
-          <div class="w-100 d-none d-md-block"></div>
-
-          <div class="col-6 col-sm-4"><h6>Wednesday</h6></div>
-          <div class="col-6 col-sm-4">
-            <div class="text-center">
-              <i class="fa-solid fa-cloud-sun sun-icon"></i>
-            </div>
-          </div>
-          <div class="col-6 col-sm-4">
-            <h6 class="weatCondition">
-              <span id="temperature"> 12º </span>
-            </h6>
-          </div>
-
-          <!-- Force next columns to break to new line at md breakpoint and up -->
-          <div class="w-100 d-none d-md-block"></div>
-
-          <div class="col-6 col-sm-4"><h6>Friday</h6></div>
-          <div class="col-6 col-sm-4">
-            <div class="text-center">
-              <i class="fa-solid fa-cloud-sun sun-icon"></i>
-            </div>
-          </div>
-          <div class="col-6 col-sm-4">
-            <h6 class="weatCondition">
-              <span id="temperature"> 12º </span>
-            </h6>
-          </div>
-
-          <!-- Force next columns to break to new line at md breakpoint and up -->
-          <div class="w-100 d-none d-md-block"></div>
-
-          <div class="col-6 col-sm-4"><h6>Saturday</h6></div>
-          <div class="col-6 col-sm-4">
-            <div class="text-center">
-              <i class="fa-solid fa-cloud-sun sun-icon"></i>
-            </div>
-          </div>
-          <div class="col-6 col-sm-4">
-            <h6 class="weatCondition">
-              <span id="temperature"> 12º </span>
-            </h6>
-          </div>
-
-          <!-- Force next columns to break to new line at md breakpoint and up -->
-          <div class="w-100 d-none d-md-block"></div>
-
-          <div class="col-6 col-sm-4"><h6>Saturday</h6></div>
-          <div class="col-6 col-sm-4">
-            <div class="text-center">
-              <i class="fa-solid fa-cloud-sun sun-icon"></i>
-            </div>
-          </div>
-          <div class="col-6 col-sm-4">
-            <h6 class="weatCondition">
-              <span id="temperature"> 12º </span>
-            </h6>
-          </div>
-
-          <!-- Force next columns to break to new line at md breakpoint and up -->
-          <div class="w-100 d-none d-md-block"></div>
-
-          <div class="col-6 col-sm-4"><h6>Sunday</h6></div>
-          <div class="col-6 col-sm-4">
-            <div class="text-center">
-              <i class="fa-solid fa-cloud-sun sun-icon"></i>
-            </div>
-          </div>
-          <div class="col-6 col-sm-4">
-            <h6 class="weatCondition">
-              <span id="temperature"> 12º </span>
-            </h6>
-          </div>
-        </div>
+        <div class="weather-forecast" id="forecast"></div>
         <br />
         <footer>
           <p>
