@@ -123,8 +123,20 @@ a {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+.weather-forecast-min {
+  opacity: 0.6;
+}
 .weather-forecast {
   color: #fff;
   margin-top: 20px;
   text-align: center;
+}
+.humidy-percentage,
+.km {
+  opacity: 0.7;
+}
+
+#humidity,
+#wind {
+  opacity: 0.8;
 }
